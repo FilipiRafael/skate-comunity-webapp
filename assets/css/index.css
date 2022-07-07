@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #1D232A;
+    color: #FFF;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15191C;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.close-menu {
+    display: none;
+}
+
+button {
+    background-color: transparent;
+    color: #FFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
+    transition: all .5s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.sidebar-menu .menu-lateral__logo {
+    align-self: center;
+    width: 118px;
+    padding: 1rem;
+}
+
+.sidebar-menu .menu-lateral__link {
+    height: 4rem;
+    color: #95999C;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.sidebar-menu .menu-lateral__link:hover, .sidebar-menu .menu-lateral__link:active {
+    color: #FFF;
+    padding-left: 1rem;
+    border-left: 8px solid #FFF;
+}
+
+.menu-lateral__link i {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
