@@ -34,6 +34,7 @@ button {
 }
 
 .sidebar-menu {
+    position: absolute;
     display: flex;
     flex-direction: column;
     background-color: #15191C;
@@ -69,3 +70,80 @@ button {
     font-size: 1rem;
 }
 
+.principal {
+    padding: 1.5rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.titulo-pagina {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cartao {
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #2C343A;
+}
+
+.cartao--destaque {
+    margin-bottom: 1rem;
+}
+
+.cartao img {
+    width: 100%;
+}
+
+.cartao__conteudo {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+}
+
+.cartao__destaque {
+    grid-column: span 2;
+}
+
+.cartao__titulo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    grid-column: span 2;
+}
+
+.cartao__perfil {
+    color: #95999C;
+    font-size: 0.9rem;
+    grid-column: span 2;
+}
+
+.cartao__info {
+    display: flex;
+    align-items: center;
+    color: #95999C;
+}
+
+.cartao__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0480DC;
+    width: 2.5rem;
+    height: 40px;
+    border-radius: 1.5rem;
+    font-size: 0.9rem;   
+    grid-column: span 2;
+    gap: 1rem;
+    justify-self: flex-end;
+}
+
+.cartao__botao--destaque {
+    width: 100%;
+}
+
+.secao {
+    display: grid;
+    gap: 1rem;
+}

@@ -21,6 +21,7 @@
         <button class="cabecalho__notificacao" aria-label="notificacao">
             <i class="fa-solid fa-bell"></i>
         </button>
+        <p class="cabecalho__menu">Filipi Rafael</p>
     </header>
     <nav class="sidebar-menu">
         <img class="menu-lateral__logo" src="./assets/images/logo.svg" alt="sidebar logo" />
@@ -63,21 +64,102 @@
     </nav>
     <main class="principal">
         <h2 class="titulo-pagina">Ínicio</h2>
-        <article class="cartao">
+        <article class="cartao cartao--destaque">
             <img src="./assets/images/art.svg" alt="card banner" class="cartao__imagem">
             <div class="cartao__conteudo">
                 <p class="cartao__destaque">Vídeo em destaque</p>
                 <h3 class="cartao__titulo">HZC - Título</h3>
                 <p class="cartao__perfil">Bruno Lopes</p>
-                <i class="fa-solid fa-clock"></i>
-                <p class="cartao__data-publicacao">33 minutos</p>
-                <i class="fa-solid fa-eye"></i>
-                <p class="cartao__visualizacoes">53 vizualizações</p>
+                <!-- <i class="fa-solid fa-clock"></i> -->
+                <p class="cartao__info cartao__info--tempo">33 minutos</p>
+                <!-- <i class="fa-solid fa-eye"></i> -->
+                <p class="cartao__info cartao__info--visualizacao">53 vizualizações</p>
+                <button class="cartao__botao cartao__botao--destaque">
+                    <i class="fa-solid fa-circle-play"></i>
+                    Assistir agora
+                </button>
             </div>
-            <button class="cartao__botao cartao__botao-destaque">
-                <i class="fa-solid fa-circle-play"></i>
-                Assistir agora
-            </button>
+        </article>
+        <article class="cartao cartao--recentes">
+            <h3 class="cartao__titulo">Vídeos recentes</h3>
+            <a href="#" class="cartao__link">Ver todos</a>
+            <ul class="cartao__lista">
+                <li class="cartao__item">
+                    <img src="./assets/images/miniatura.svg" alt="thumbnail" class="cartao__item-thumbnail" />
+                    <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="./assets/images/miniatura.svg" alt="thumbnail" class="cartao__item-thumbnail" />
+                    <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="./assets/images/miniatura.svg" alt="thumbnail" class="cartao__item-thumbnail" />
+                    <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="./assets/images/miniatura.svg" alt="thumbnail" class="cartao__item-thumbnail" />
+                    <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="./assets/images/miniatura.svg" alt="thumbnail" class="cartao__item-thumbnail" />
+                    <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+            </ul>
+        </article>
+        <section class="secao">
+            <h3 class="titulo-secao">Vídeo mais vistos</h3>
+            <article class="cartao">
+                <img src="./assets/images/art-2.svg" alt="card banner" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Bruno Lopes</p>
+                    <h3 class="cartao__titulo">HZC - Título</h3>
+                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
+                    <button class="cartao__botao">
+                        <i class="fa-solid fa-circle-play" aria-label="Assitir agora"></i>
+                    </button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="./assets/images/art-3.svg" alt="card banner" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Bruno Lopes</p>
+                    <h3 class="cartao__titulo">HZC - Título</h3>
+                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
+                    <button class="cartao__botao">
+                        <i class="fa-solid fa-circle-play" aria-label="Assitir agora"></i>
+                    </button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="./assets/images/art-4.svg" alt="card banner" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Bruno Lopes</p>
+                    <h3 class="cartao__titulo">HZC - Título</h3>
+                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
+                    <button class="cartao__botao">
+                        <i class="fa-solid fa-circle-play" aria-label="Assitir agora"></i>
+                    </button>
+                </div>
+            </article>
+        </section>
+        <article class="cartao cartao--destaque">
+            <img src="./assets/images/art.svg" alt="card banner" class="cartao__imagem">
+            <div class="cartao__conteudo">
+                <p class="cartao__destaque">Vídeo em destaque</p>
+                <h3 class="cartao__titulo">HZC - Título</h3>
+                <p class="cartao__perfil">Bruno Lopes</p>
+                <p class="cartao__info cartao__info--tempo">33 minutos</p>
+                <p class="cartao__info cartao__info--visualizacao">53 vizualizações</p>
+                <button class="cartao__botao cartao__botao--destaque">
+                    <i class="fa-solid fa-circle-play"></i>
+                    Assistir agora
+                </button>
+            </div>
         </article>
     </main>
 </body>
